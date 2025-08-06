@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from server.repositories.queries_repository import create, read
+from repositories.queries_repository import create, read
 from schemes.schemes import Vendedor, Producto, Factura, DetalleFactura
 
 app = FastAPI()

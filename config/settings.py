@@ -16,4 +16,5 @@ for var in REQUIRED_VARS:
 USER = os.getenv("USER")
 PASSWORD = os.getenv("PASSWORD")
 HOST = os.getenv("HOST")
+PORT = os.getenv("PORT")
 DATABASE = os.getenv("DATABASE")
